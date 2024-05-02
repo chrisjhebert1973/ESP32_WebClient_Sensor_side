@@ -14,7 +14,12 @@ The components are:
 
 * Step 1
   * Start the Raspberry PI Server by running
-  * cd ~/Documents/Server
+  * cd ~/Documents
+  * mkdir /Server
+  * cd /Server
+  * sudo apt install git
+  * git clone git@github.com:chrisjhebert1973/ESP32_WebClient_Sensor_side.git
+  * cd ESP32_WebClient_sensorSide/src
   * node server.js
 *  Step 2
   * Find the IP address of the Raspberry Pi. You will need to update the code for both of the ESP32 projects with this IP address.
