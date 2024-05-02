@@ -1,4 +1,4 @@
-# H1 Set up for ESP32 Client Sensor Side.
+# Set up for ESP32 Client Sensor Side.
 
 * This is the ESP32 (Arduino) that is connected to the Sensor.
 * The ESP32 will connect to the local network and send it's sensor value to the Raspberry Pi Server twice per second.
